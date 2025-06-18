@@ -45,83 +45,59 @@ const Flashcards = () => {
   const flashcards = [
     {
       id: 1,
-      category: "Introduction",
-      flag: "🎤",
-      question: "How do you start the presentation?",
-      answer: `"Hi everyone! Today I'm going to tell you about how friendship is experienced in different parts of the world."`,
-      pronunciation: "[Jai evri-wan. Tu-déy aim góuing tu téll iú abáut jáu fréndship is ix-pírienst in dífrent párts of de guóld.]"
+      category: "Japan",
+      flag: "🇯🇵",
+      question: "What is Kizuna and how is it expressed?",
+      answer: "Kizuna (絆) is the Japanese word for 'bond' or 'emotional tie.' Friends get together on special occasions (for example, when someone starts a new job or moves to a new home) and exchange small, handwritten thank-you cards highlighting qualities they appreciate in each other.",
+      pronunciation: "[Kízuna is de Yápanís wórd for bónd or emóushonal tái. Frénds guét togéder on spéshal okéishons (for egzámpl, wuen sámwán stárts a niú yób or múvs tu a niú jóum) and ékschéinch smól, hándríten zánk-iú cards, jáilaighting cóalitis déi apríshiéit in ích óder.]"
     },
     {
       id: 2,
       category: "Japan",
       flag: "🇯🇵",
-      question: "How are friendships in Japan described?",
-      answer: `"In Japan, friendships are more formal and reserved at first. People build trust slowly, and they tend to avoid talking about personal problems."`,
-      pronunciation: "[In Yapan, fréndships ar mór fórmal and risérvd at férst. Pípol bíld trást slóuli, and déi avóid tóking abáut pérsonal próblems.]"
+      question: "What is Hanami and its importance to friendship?",
+      answer: "In spring, many friend groups organize hanami (cherry-blossom viewing) outings, reinforcing their sense of community.",
+      pronunciation: "[In spríng, méni frénd grúps órganáiz hanámi (chéri blósom víuwing) áutings, ríinforzing déir sens of comiúni-ti.]"
     },
     {
       id: 3,
-      category: "Japan",
-      flag: "🇯🇵",
-      question: "What happens once Japanese friendships become strong?",
-      answer: `"But once a friendship is strong, it can last a lifetime. They highly value loyalty and harmony."`,
-      pronunciation: "[Bat óns a fréndship is stróng, it can lást a láif-táim. Dey váliú lóialti and jármóni.]"
+      category: "India",
+      flag: "🇮🇳",
+      question: "How do traditional ceremonies include friendship in India?",
+      answer: "Although traditionally centered on siblings, in many regions these ceremonies extend to very close friends.",
+      pronunciation: "[Olzóu tradíshonali séntered on síblings, in méni ríyons díis sérimonís ékstend tu véri clóus frénds.]"
     },
     {
       id: 4,
       category: "India",
       flag: "🇮🇳",
-      question: "How are friendships in India characterized?",
-      answer: `"In India, friendships are incredibly warm and close. Friends spend a lot of time together, and it's common to hold hands or show affection."`,
-      pronunciation: "[In Índia, fréndships ar véri wórm and clóus. Frénds spénd a lót of táim tugéder, and its nórmal tu jóuld hánds or shóu aféction.]"
+      question: "What is Rakhi and its significance?",
+      answer: "A decorated thread (rakhi) is tied around the wrist of the other person as a symbol of protection and affection. The recipient in turn offers sweets and a small gift.",
+      pronunciation: "[A décoreited thred (ráki) is táid arraund de ríst of di óder pérson as a símbol of protékshon and afékshon. De resípient in térn ófers suíits and a smól guíft.]"
     },
     {
       id: 5,
       category: "India",
       flag: "🇮🇳",
-      question: "How are friends treated in Indian culture?",
-      answer: `"In fact, sometimes friends are even treated like part of the family."`,
-      pronunciation: "[In fakt, sámtáims, frénds ar íven tríitid láik párt of de fá-mili.]"
+      question: "How is Bhai Dooj connected to friendship?",
+      answer: "While celebrating brother-sister bonds, deep friendships sometimes take part, exchanging blessings and presents.",
+      pronunciation: "[Wáil celébreiting bróder-síster bónds, díip fréndships sámtáims teik párt, ékschéinching blésings and présents.]"
     },
     {
       id: 6,
-      category: "Mexico",
+      category: "Mexico & Latin America",
       flag: "🇲🇽",
-      question: "How do people show friendship in Mexico?",
-      answer: `"In Mexico, friendships are very social and expressive. People greet with hugs or cheek kisses, and they absolutely love spending time together."`,
-      pronunciation: "[In Méksico, fréndships ar véri sóshal and ixprésiv. Pípol grít wuit jágs or chíik kísez, and déi lóv spénding táim tugéder.]"
+      question: "What are Friendship Bracelets and their meaning?",
+      answer: "Hand-woven strands of colored thread, each color symbolizing a value (loyalty, joy, hope...). They are woven and gifted at farewells (for example, graduating from school), with the belief that the receiver makes a wish when it's tied on, and when it eventually falls off—worn through—the wish will come true.",
+      pronunciation: "[Jánd wóven strands of cólord thred, ích cólor símboláizing a váliú (lóyalti, yóy, hóup...) Déi ar wóven and guífted at férwels (for egzámpl, grádueiting from skuul), wíd de belíf dát de resíver méiks a wísh wuen its táid on, and wuen it éventchuali fôls óf—wórn thru—de wísh wíl com trú.]"
     },
     {
       id: 7,
-      category: "Mexico",
+      category: "Mexico & Latin America",
       flag: "🇲🇽",
-      question: "What tradition is important in Mexican friendships?",
-      answer: `"There's a strong tradition of sharing food and celebrating together."`,
-      pronunciation: "[Dérs a stróng tradíshon of shéring fúd and sélebréiting tugéder.]"
-    },
-    {
-      id: 8,
-      category: "Latin America",
-      flag: "🌎",
-      question: "How are friendships viewed in Latin America generally?",
-      answer: `"In Latin America, friendships are very important. People are generally warm and open, and they truly enjoy being in groups."`,
-      pronunciation: "[In Látin Amérika, fréndships ar véri impórtant. Pípol ar wórm and óupen, and déi enjói bíing in grúps.]"
-    },
-    {
-      id: 9,
-      category: "Latin America",
-      flag: "🌎",
-      question: "What do friends provide in Latin American culture?",
-      answer: `"Friends offer emotional support and share both the good and challenging moments together."`,
-      pronunciation: "[Frénds ófer imóushonal sapórt and shér bóth de gúd and chálenying móments tugéder.]"
-    },
-    {
-      id: 10,
-      category: "Conclusion",
-      flag: "🎯",
-      question: "How do you conclude the presentation?",
-      answer: `"So, as we can see, while friendship looks different in each culture, one thing is constant: true friends are always important, no matter where you are. Thank you!"`,
-      pronunciation: "[So, as wi can sí, wáhil fréndship lúks dífrent in ích cálchur, wán zing is kónstant: trú frénds ar ólways impórtant, nóu máter wér yu ar. Zánk yu!]"
+      question: "How do Friendship Bracelets build community?",
+      answer: "'Bracelet-making workshops' are common at festivals and youth camps, strengthening camaraderie by creating together.",
+      pronunciation: "[Brácelet méiking wórkshops ar cómon at féstivals and yúz cáamps, stréngthening camarádari bai créiiting togéder.]"
     }
   ];
 
