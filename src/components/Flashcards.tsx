@@ -45,6 +45,14 @@ const Flashcards = () => {
   const flashcards = [
     {
       id: 1,
+      category: "Introduction",
+      flag: "🌏",
+      question: "How do you start the presentation?",
+      answer: "Hi everyone! Today I'm going to tell you about how friendship is celebrated in different cultures around the world, focusing on Japan, India, and Latin America.",
+      pronunciation: "[Jái évriwan! Tudéi aim góing tu tél yu abáut jáu fréndship is sélebreited in dífrent cálchurs aráund de wórld, fócusing on Yapán, Índia, and Látin Amérika.]"
+    },
+    {
+      id: 2,
       category: "Japan",
       flag: "🇯🇵",
       question: "What is Kizuna and how is it expressed?",
@@ -52,7 +60,7 @@ const Flashcards = () => {
       pronunciation: "[Kízuna is de Yápanís wórd for bónd or emóushonal tái. Frénds guét togéder on spéshal okéishons (for egzámpl, wuen sámwán stárts a niú yób or múvs tu a niú jóum) and ékschéinch smól, hándríten zánk-iú cards, jáilaighting cóalitis déi apríshiéit in ích óder.]"
     },
     {
-      id: 2,
+      id: 3,
       category: "Japan",
       flag: "🇯🇵",
       question: "What is Hanami and its importance to friendship?",
@@ -60,7 +68,7 @@ const Flashcards = () => {
       pronunciation: "[In spríng, méni frénd grúps órganáiz hanámi (chéri blósom víuwing) áutings, ríinforzing déir sens of comiúni-ti.]"
     },
     {
-      id: 3,
+      id: 4,
       category: "India",
       flag: "🇮🇳",
       question: "How do traditional ceremonies include friendship in India?",
@@ -68,7 +76,7 @@ const Flashcards = () => {
       pronunciation: "[Olzóu tradíshonali séntered on síblings, in méni ríyons díis sérimonís ékstend tu véri clóus frénds.]"
     },
     {
-      id: 4,
+      id: 5,
       category: "India",
       flag: "🇮🇳",
       question: "What is Rakhi and its significance?",
@@ -76,7 +84,7 @@ const Flashcards = () => {
       pronunciation: "[A décoreited thred (ráki) is táid arraund de ríst of di óder pérson as a símbol of protékshon and afékshon. De resípient in térn ófers suíits and a smól guíft.]"
     },
     {
-      id: 5,
+      id: 6,
       category: "India",
       flag: "🇮🇳",
       question: "How is Bhai Dooj connected to friendship?",
@@ -84,7 +92,7 @@ const Flashcards = () => {
       pronunciation: "[Wáil celébreiting bróder-síster bónds, díip fréndships sámtáims teik párt, ékschéinching blésings and présents.]"
     },
     {
-      id: 6,
+      id: 7,
       category: "Mexico & Latin America",
       flag: "🇲🇽",
       question: "What are Friendship Bracelets and their meaning?",
@@ -92,7 +100,7 @@ const Flashcards = () => {
       pronunciation: "[Jánd wóven strands of cólord thred, ích cólor símboláizing a váliú (lóyalti, yóy, hóup...) Déi ar wóven and guífted at férwels (for egzámpl, grádueiting from skuul), wíd de belíf dát de resíver méiks a wísh wuen its táid on, and wuen it éventchuali fôls óf—wórn thru—de wísh wíl com trú.]"
     },
     {
-      id: 7,
+      id: 8,
       category: "Mexico & Latin America",
       flag: "🇲🇽",
       question: "How do Friendship Bracelets build community?",
