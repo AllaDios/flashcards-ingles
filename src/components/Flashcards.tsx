@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, RotateCcw, Volume2, Square } from 'lucide-react';
 import '../styles/flashcards.css';
+import '../styles/progress.css';
 
 const Flashcards = () => {
   const [currentCard, setCurrentCard] = useState(0);
@@ -14,7 +15,13 @@ const Flashcards = () => {
     } else {
       console.warn("Speech Synthesis API no es compatible con este navegador.");
     }
-  }, []);
+
+    // Actualizar CSS variable para la barra de progreso
+    document.documentElement.style.setProperty(
+      '--progress-width',
+      `${((currentCard + 1) / flashcards.length) * 100}%`
+    );
+  }, [currentCard]);
 
   const speakText = (text: string, lang = 'en-US') => {
     if (speechSupported) {
@@ -155,7 +162,6 @@ const Flashcards = () => {
         <div className="progress-bar">
           <div 
             className="progress-bar-fill"
-            style={{ width: `${((currentCard + 1) / flashcards.length) * 100}%` }}
           ></div>
         </div>
       </div>

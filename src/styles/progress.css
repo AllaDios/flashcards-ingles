@@ -1,0 +1,11 @@
+:root {
+  --progress-width: 0%;
+}
+
+.progress-bar-fill {
+  width: var(--progress-width);
+  height: 100%;
+  background-color: #3B82F6;
+  border-radius: 9999px;
+  transition: width 300ms ease-in-out;
+}
